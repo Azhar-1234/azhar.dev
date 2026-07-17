@@ -32,8 +32,9 @@ export default function Contact() {
           ))}
         </div>
       </div>
-      <div className="mx-auto mt-[72px] flex max-w-[1180px] justify-between border-t border-border-dark pt-7 font-mono text-[13px] text-[#78716C]">
+      <div className="mx-auto mt-[72px] flex max-w-[1180px] items-center justify-between border-t border-border-dark pt-7 font-mono text-[13px] text-[#78716C]">
         <div>© 2026 Azhar Uddin</div>
+        <div>Built with React &amp; Next.js</div>
         <div>Mirpur, Dhaka, Bangladesh</div>
       </div>
     </section>
