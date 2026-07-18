@@ -2,13 +2,13 @@ import { skillGroups } from "@/data/content";
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-ink px-16 py-[88px] text-cream">
+    <section id="skills" className="bg-ink px-6 py-16 text-cream md:px-16 md:py-[88px]">
       <div className="mx-auto max-w-[1180px]">
         <div className="font-mono text-[13px] font-medium text-amber">01 — TOOLKIT</div>
-        <h2 className="mt-3.5 mb-12 font-display text-[44px] font-bold tracking-tight">
+        <h2 className="mt-3.5 mb-12 font-display text-[30px] font-bold tracking-tight sm:text-[36px] md:text-[44px]">
           What I work with
         </h2>
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
           {skillGroups.map((g) => (
             <div
               key={g.title}

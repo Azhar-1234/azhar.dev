@@ -10,7 +10,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
-    <div className="min-w-[1100px] bg-cream">
+    <div className="overflow-x-hidden bg-cream">
       <Nav />
       <Hero />
       <TechHighlights />

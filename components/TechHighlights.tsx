@@ -5,16 +5,16 @@ export default function TechHighlights() {
   return (
     <section
       id="highlights"
-      className="border-t border-border bg-cream-light px-16 py-[72px]"
+      className="border-t border-border bg-cream-light px-6 py-14 md:px-16 md:py-[72px]"
     >
       <div className="mx-auto max-w-[1180px]">
         <div className="text-center font-mono text-[13px] font-medium text-rust">
           HIGHLIGHTS — MY STACK
         </div>
-        <h2 className="mt-3 mb-11 text-center font-display text-4xl font-bold tracking-tight">
+        <h2 className="mt-3 mb-11 text-center font-display text-[28px] font-bold tracking-tight sm:text-3xl md:text-4xl">
           Languages, frameworks &amp; tools I use daily
         </h2>
-        <div className="grid grid-cols-7 gap-[18px]">
+        <div className="grid grid-cols-3 gap-[14px] sm:grid-cols-4 md:grid-cols-5 md:gap-[18px] lg:grid-cols-7">
           {techLogos.map((tl) => (
             <div
               key={tl.name}
